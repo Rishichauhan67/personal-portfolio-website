@@ -13,7 +13,7 @@ export default function Contact() {
           <div className='transition-colors'>
             <h2 className="text-4xl font-bold mb-4">Let's Connect</h2>
             <p className="text-slate-600 mb-8 text-lg">
-              I am currently looking for a opportunities. Feel free to reach out!
+              Feel free to Contact Me
             </p>
 
             <div className="space-y-6">
@@ -53,8 +53,8 @@ export default function Contact() {
             </div>
 
             <div className="mt-10 flex gap-4 border-amber-950">
-              <a  href="#" className="p-2 text-slate-400  hover:text-slate-900 transition-colors"><Github size={24} /></a>
-              <a href="#" className="p-2 text-slate-400  hover:text-blue-600 transition-colors"><Linkedin size={24} /></a>
+              <a  href="https://github.com/Rishichauhan67?tab=repositories" className="p-2 text-slate-400  hover:text-slate-900 transition-colors"><Github size={24} /></a>
+              <a href="https://www.linkedin.com/in/devrishichauhan/" className="p-2 text-slate-400  hover:text-blue-600 transition-colors"><Linkedin size={24} /></a>
             </div>
           </div>
 

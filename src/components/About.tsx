@@ -34,7 +34,7 @@ export default function About() {
               </div>
               <div className="space-y-3">
                 <div className="flex items-center gap-2 text-accent font-bold text-sm uppercase tracking-wider">
-                  <Lightbulb size={16} /> My Goal
+                  <Lightbulb size={16} /> My Goal 
                 </div>
                 <p className="text-on-surface-variant/80 text-sm leading-relaxed">
                   My current goal is to bridge the gap between academic theory and practical software engineering by building real world projects and contributing to open-source tools.

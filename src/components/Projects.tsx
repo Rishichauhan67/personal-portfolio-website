@@ -100,12 +100,11 @@ export default function Projects() {
                     </div>
                     <h3 className="text-2xl font-bold mb-3">{project.title}</h3>
                     <p className="grow text-slate-400 text-sm mb-8">{project.description}</p>
-                    
                     <div className="flex items-center justify-between mt-auto">
                       <a href={project.demoLink} className="text-[#4a9eff] text-sm font-semibold flex items-center gap-1.5 transition-colors hover:text-blue-300">
                         Live Demo <ExternalLink size={14} />
                       </a>
-                      <button 
+                      <button
                         onClick={() => setActiveProject(project)}
                         className="flex items-center gap-2 px-5 py-2.5 bg-[#232635] hover:bg-[#2d3145] rounded-xl text-sm font-medium transition-all"
                       >
@@ -121,16 +120,15 @@ export default function Projects() {
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: 20 }}
-                className="grid grid-cols-1 lg:grid-cols-2 h-full min-h-[46.875rem]"
-              >
+                className="grid grid-cols-1 lg:grid-cols-2 h-full min-h-[46.875rem]">
                 {/* Image Panel - Using object-contain and padding to prevent zoom */}
                 <div className="relative h-64 lg:h-full bg-black/40 flex items-center justify-center p-8 lg:p-12">
                   <img 
                     src={activeProject.image} 
                     alt={activeProject.title} 
-                    className="w-full h-full object-contain rounded-xl shadow-2xl" 
+                    className="w-full h-full object-contain rounded-xl shadow-2xl"
                   />
-                  <button 
+                  <button
                     onClick={() => setActiveProject(null)}
                     className="absolute top-8 left-8 flex items-center gap-2 px-5 py-2.5 bg-black/60 backdrop-blur-xl border border-white/10 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-black/80 transition-all"
                   >

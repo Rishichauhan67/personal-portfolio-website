@@ -44,7 +44,7 @@ export default function Navbar() {
           animate={{ opacity: 1, x: 0 }}
           className="text-xl font-bold text-on-surface tracking-tight"
         >
-          TECH_PORTFOLIO
+          WHO_AM_I
         </motion.div>
 
         <div className="hidden md:flex items-center gap-10">
