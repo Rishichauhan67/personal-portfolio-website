@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
+  SiPython,
   SiHtml5,
   SiJavascript,
   SiReact,
@@ -19,6 +20,8 @@ import {
   SiDocker,
   SiPostman,
   SiJira,
+  SiJquery,
+  SiNetapp,
 } from "react-icons/si";
 
 const skillCategories = [
@@ -45,23 +48,25 @@ const techStack = [
   { icon: SiCss, name: "CSS3", color: "text-blue-500" },
   { icon: SiJavascript, name: "JS", color: "text-yellow-400" },
   { icon: SiReact, name: "React JS", color: "text-cyan-400" },
-  { icon: SiNpm, name: "npm", color: "text-red-500" },
+  { icon: SiPython, name: "Python", color: "text-blue-500" },
   { icon: SiNodedotjs, name: "Node.js", color: "text-green-500" },
   { icon: SiMongodb, name: "MongoDB", color: "text-green-400" },
-  { icon: SiPostgresql, name: "Postgres", color: "text-blue-400" },
-  { icon: SiMysql, name: "MySQL", color: "text-blue-500" },
-  { icon: SiGithub, name: "GitHub", color: "text-slate-900 dark:text-white" },
+  { icon: SiPostgresql, name: "Postgre SQL", color: "text-blue-400" },
+  { icon: SiMysql, name: "My SQL", color: "text-blue-500" },
   { icon: SiAngular, name: "Angular", color: "text-red-600" },
+  { icon: SiJquery, name: "Jquery", color: "text-red-600" },
+  { icon: SiNetapp , name: "Rest API", color: "text-blue-600" },
 ];
 
 // Tools Array (The icons you were missing)
 const toolStack = [
   { icon: SiGit, name: "Git", color: "text-orange-600" },
+  { icon: SiGithub, name: "GitHub", color: "text-slate-900 dark:text-white" },
   { icon: SiFigma, name: "Figma", color: "text-purple-500" },
   { icon: SiDocker, name: "Docker", color: "text-blue-400" },
   { icon: SiPostman, name: "Postman", color: "text-orange-500" },
   { icon: SiJira, name: "Jira", color: "text-blue-600" },
-  { icon: SiNodedotjs, name: "Rest API", color: "text-blue-600" },
+  
 ];
 
 export default function Skills() {
